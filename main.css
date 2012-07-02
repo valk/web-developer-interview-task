@@ -1,0 +1,132 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* BEGIN: frame decorations */
+.frame-wrapper {
+    margin: 0;
+    display: inline-block;
+}
+
+.frame-wrapper.password {
+    margin: 15px 0 0;
+}
+
+.frame-top {
+    background: url(images/top.png) repeat-x 0 0;
+}
+.frame-right {
+    background: url(images/right.png) repeat-y 100% 0;
+}
+.frame-bottom {
+    background: url(images/bottom.png) repeat-x 0 100%;
+}
+.frame-left {
+    background: url(images/left.png) repeat-y 0 0;
+}
+.frame-tl {
+    background: url(images/tl_corner.png) no-repeat 0 0;
+}
+.frame-tr {
+    background: url(images/tr_corner.png) no-repeat 100% 0;
+}
+.frame-br {
+    background: url(images/br_corner.png) no-repeat 100% 100%;
+}
+.frame-bl {
+    background: url(images/bl_corner.png) no-repeat 0 100%;
+}
+
+.frame-content {
+    padding: 10px 20px;
+}
+/* END */
+
+.header {
+    height: 32px;
+    background: url(images/header_bg_pattern.png) repeat-x 0 0;
+}
+
+.header .item {
+    line-height: 32px;
+    width: 150px;
+    display: inline-block;
+    margin: 0 0 0 40px;
+    float: left;
+    color: #fff;
+    font-weight: bold;
+}
+
+.slogan {
+    font: bold 45px Arial;
+    margin: 50px 0 30px 80px;
+    width: 480px;
+    text-align: center;
+}
+
+.name {
+    width: 199px;
+    height: 20px;
+    border: none;
+    color: #999;
+}
+
+.password,
+.message {
+    color: #999;
+    border: none;
+    display: block;
+    width: 486px;
+}
+
+.password .password,
+.message .message {
+    width: 440px;
+}
+
+.message {
+    min-height: 171px;
+    background: #fff;
+}
+    
+.submit {
+    display: block;
+    float: right;
+    background: url(images/submit.png) no-repeat 0 0;
+    border: none;
+    width: 144px;
+    height: 55px;
+    cursor: hand;
+    cursor: pointer;
+    margin: 10px 0 0;
+}
+
+.message_form {
+    width: 486px;
+    margin: 0 0 0 80px;
+}
+
+.feedback.error {
+    color: #f55;
+    margin: 10px 0 15px 80px;
+    display: block;
+}
+.thank {
+    color: #5f5;
+    margin: 10px 0 15px 80px;
+}
+
+.page_wrapper {
+/*    background: url(images/main_bg.png) repeat-x 0 100%;*/
+    min-height: 800px;
+}
+
+
+.frame-wrapper.recipient {
+    width: 241px;
+}
+
+.recipient.name {
+    width: 170px;
+}
