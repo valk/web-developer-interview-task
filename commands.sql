@@ -9,16 +9,14 @@ DROP TABLE IF EXISTS `recipient`;
 CREATE TABLE `customer` (
   `customer_id` int(10) unsigned NOT NULL AUTO_INCREMENT,
   `name` varchar(50) NOT NULL DEFAULT '',
-  PRIMARY KEY (`customer_id`),
-  UNIQUE KEY `name` (`name`)
+  PRIMARY KEY (`customer_id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 
 CREATE TABLE `recipient` (
   `recipient_id` int(10) unsigned NOT NULL AUTO_INCREMENT,
   `name` varchar(50) NOT NULL DEFAULT '',
-  PRIMARY KEY (`recipient_id`),
-  UNIQUE KEY `name` (`name`)
+  PRIMARY KEY (`recipient_id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 
